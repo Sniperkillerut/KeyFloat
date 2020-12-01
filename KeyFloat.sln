@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30503.244
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KeyFloat", "KeyFloat.csproj", "{F80BC2F3-E0C6-4BFC-B56A-D2958B60F659}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F80BC2F3-E0C6-4BFC-B56A-D2958B60F659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F80BC2F3-E0C6-4BFC-B56A-D2958B60F659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F80BC2F3-E0C6-4BFC-B56A-D2958B60F659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F80BC2F3-E0C6-4BFC-B56A-D2958B60F659}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AC953489-9AF6-4994-9638-56A8F18AB1E7}
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,211 @@
+﻿<Window x:Class="KeyFloat.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:KeyFloat"
+        mc:Ignorable="d"
+        Title="KeyFloat" Height="236.599" Width="665" Loaded="Window_Loaded" 
+         SnapsToDevicePixels="True"
+        UseLayoutRounding="True"
+        AllowsTransparency="True"
+        WindowStyle="None" ResizeMode="CanResizeWithGrip" Closing="Window_Closing" MouseDown="Window_MouseDown" Topmost="True" Margin="0" Padding="0" Background="#19FFFFFF">
+    <Window.Resources>
+        <Style TargetType="TextBox">
+            <Setter Property="HorizontalAlignment" Value="Stretch" />
+            <Setter Property="VerticalContentAlignment" Value="Stretch" />
+            <Setter Property="TextAlignment" Value="Center"/>
+            <Setter Property="FontFamily" Value="Source Code Pro"/>
+            <Setter Property="FontSize" Value="12"/>
+            <Setter Property="Background" Value="#3FFFFFFF"/>
+            <Setter Property="Foreground" Value="#FFFFFFFF"/>
+            <Setter Property="MaxLines" Value="1"/>
+            <Setter Property="UseLayoutRounding" Value="True"/>
+            <Setter Property="AllowDrop" Value="False"/>
+            <Setter Property="IsTabStop" Value="False"/>
+            <Setter Property="Grid.IsSharedSizeScope" Value="True"/>
+        </Style>
+    </Window.Resources>
+    <Grid x:Name="Grid">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="12px"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+            <ColumnDefinition Width="*"/>
+        </Grid.ColumnDefinitions>
+        <ToggleButton x:Name="Blur" Content="Blur" Grid.Row="0" Grid.Column="29" Grid.ColumnSpan="5" Click="CheckBox_Click" IsChecked="True" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#3FFFFFFF" Grid.IsSharedSizeScope="True" UseLayoutRounding="True"/>
+        <Label x:Name="textBox_DisplayKeyboardInput" Grid.Row="1" Grid.Column="24" Grid.ColumnSpan="16" Content="lctrl" Background="#3FFFFFFF" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" FontSize="10" Padding="0,0,5,0" Grid.IsSharedSizeScope="True" ScrollViewer.CanContentScroll="True" />
+        <Button x:Name="Btn_Close" Content="X" Grid.Row="2" Grid.Column="29" Grid.ColumnSpan="5" HorizontalContentAlignment="Center" VerticalContentAlignment="Center" Background="#3FFFFFFF" Grid.IsSharedSizeScope="True" UseLayoutRounding="True" Click="Close_Click"></Button>
+
+        <!--First Row-->
+        <TextBox x:Name="VK_Escape" Text="Escape"  Grid.Row="0" Grid.Column="0" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F1" Text="F1"       Grid.Row="0" Grid.Column="4" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F2" Text="F2"       Grid.Row="0" Grid.Column="8" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F3" Text="F3"       Grid.Row="0" Grid.Column="12" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F4" Text="F4"       Grid.Row="0" Grid.Column="16" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F5" Text="F5"       Grid.Row="0" Grid.Column="20" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F6" Text="F6"       Grid.Row="0" Grid.Column="24" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F7" Text="F7"       Grid.Row="0" Grid.Column="36" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F8" Text="F8"       Grid.Row="0" Grid.Column="40" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F9" Text="F9"       Grid.Row="0" Grid.Column="44" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F10" Text="F10"     Grid.Row="0" Grid.Column="48" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F11" Text="F11"     Grid.Row="0" Grid.Column="52" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F12" Text="F12"     Grid.Row="0" Grid.Column="56" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Snapshot" Text="Snapshot"     Grid.Row="0" Grid.Column="60" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Pause" Text="Pause"     Grid.Row="0" Grid.Column="64" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Delete" Text="Delete"     Grid.Row="0" Grid.Column="68" Grid.ColumnSpan="4" />
+        <!--Second Row-->
+        <TextBox x:Name="VK_Oem3" Text="`"  Grid.Row="2" Grid.Column="0" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D1" Text="1"      Grid.Row="2" Grid.Column="4" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D2" Text="2"      Grid.Row="2" Grid.Column="8" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D3" Text="3"      Grid.Row="2" Grid.Column="12" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D4" Text="4"      Grid.Row="2" Grid.Column="16" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D5" Text="5"      Grid.Row="2" Grid.Column="20" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D6" Text="6"      Grid.Row="2" Grid.Column="24" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D7" Text="7"      Grid.Row="2" Grid.Column="36" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D8" Text="8"      Grid.Row="2" Grid.Column="40" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D9" Text="9"      Grid.Row="2" Grid.Column="44" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D0" Text="0"      Grid.Row="2" Grid.Column="48" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_OemMinus" Text="-" Grid.Row="2" Grid.Column="52" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_OemPlus" Text="=" Grid.Row="2" Grid.Column="56" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Back" Text="Back" Grid.Row="2" Grid.Column="60" Grid.ColumnSpan="8" />
+        <TextBox x:Name="VK_Home" Text="Home" Grid.Row="2" Grid.Column="68" Grid.ColumnSpan="4" />
+        <!--Third Row-->
+        <TextBox x:Name="VK_Tab" Text="Tab"  Grid.Row="3" Grid.Column="0" Grid.ColumnSpan="6" />
+        <TextBox x:Name="VK_Q" Text="Q"  Grid.Row="3" Grid.Column="6" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_W" Text="W"  Grid.Row="3" Grid.Column="10" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_E" Text="F"  Grid.Row="3" Grid.Column="14" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_R" Text="P"  Grid.Row="3" Grid.Column="18" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_T" Text="B"  Grid.Row="3" Grid.Column="22" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Y" Text="J"  Grid.Row="3" Grid.Column="34" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_U" Text="L"  Grid.Row="3" Grid.Column="38" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_I" Text="U"  Grid.Row="3" Grid.Column="42" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_O" Text="Y"  Grid.Row="3" Grid.Column="46" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_OemOpenBrackets" Text=";"  Grid.Row="3" Grid.Column="50" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Oem6" Text="["  Grid.Row="3" Grid.Column="54" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Oem5" Text="]"  Grid.Row="3" Grid.Column="58" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_TK" Text="\"  Grid.Row="3" Grid.Column="62" Grid.ColumnSpan="6" />
+        <TextBox x:Name="VK_End" Text="End"  Grid.Row="3" Grid.Column="68" Grid.ColumnSpan="4" />
+        <!--Fourth Row-->
+        <TextBox x:Name="VK_Capital" Text="Back" Grid.Row="4" Grid.Column="0" Grid.ColumnSpan="7" />
+        <TextBox x:Name="VK_A" Text="A" Grid.Row="4" Grid.Column="7" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_S" Text="R" Grid.Row="4" Grid.Column="11" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_D" Text="S" Grid.Row="4" Grid.Column="15" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_F" Text="T" Grid.Row="4" Grid.Column="19" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_G" Text="G" Grid.Row="4" Grid.Column="23" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_H" Text="K" Grid.Row="4" Grid.Column="35" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_J" Text="N" Grid.Row="4" Grid.Column="39" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_K" Text="E" Grid.Row="4" Grid.Column="43" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_L" Text="I" Grid.Row="4" Grid.Column="47" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Oem1" Text="O" Grid.Row="4" Grid.Column="51" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_OemQuotes" Text="'" Grid.Row="4" Grid.Column="55" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Return" Text="Return" Grid.Row="4" Grid.Column="59" Grid.ColumnSpan="9" />
+        <TextBox x:Name="VK_PageUp" Text="PageUp" Grid.Row="4" Grid.Column="68" Grid.ColumnSpan="4" />
+        <!--Fifth Row-->
+        <TextBox x:Name="VK_LeftShift" Text="Z" Grid.Row="5" Grid.Column="0" Grid.ColumnSpan="9" />
+        <TextBox x:Name="VK_Z" Text="X" Grid.Row="5" Grid.Column="9" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_X" Text="C" Grid.Row="5" Grid.Column="13" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_C" Text="D" Grid.Row="5" Grid.Column="17" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_V" Text="V" Grid.Row="5" Grid.Column="21" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_B" Text="Ñ" Grid.Row="5" Grid.Column="25" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_N" Text="M" Grid.Row="5" Grid.Column="37" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_M" Text="H" Grid.Row="5" Grid.Column="41" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_OemComma" Text="," Grid.Row="5" Grid.Column="45" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_OemPeriod" Text="." Grid.Row="5" Grid.Column="49" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_OemQuestion" Text="/" Grid.Row="5" Grid.Column="53" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_RightShift" Text="RightShift" Grid.Row="5" Grid.Column="57" Grid.ColumnSpan="7" />
+        <TextBox x:Name="VK_Up" Text="Up" Grid.Row="5" Grid.Column="64" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Next" Text="Next" Grid.Row="5" Grid.Column="68" Grid.ColumnSpan="4" />
+        <!--Sixth Row-->
+        <TextBox x:Name="VK_LeftCtrl" Text="LeftCtrl" Grid.Row="6" Grid.Column="0" Grid.ColumnSpan="6" />
+        <TextBox x:Name="VK_LeftWin" Text="FN" Grid.Row="6" Grid.Column="6" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_LeftAlt" Text="LeftAlt" Grid.Row="6" Grid.Column="10" Grid.ColumnSpan="5" />
+        <TextBox x:Name="VK_LeftSpace" Text="LeftShift" Grid.Row="6" Grid.Column="15" Grid.ColumnSpan="14" />
+        <TextBox x:Name="VK_RightSpace" Text="Space" Grid.Row="6" Grid.Column="34" Grid.ColumnSpan="14" />
+        <TextBox x:Name="VK_RightAlt" Text="RightAlt" Grid.Row="6" Grid.Column="48" Grid.ColumnSpan="5" />
+        <TextBox x:Name="VK_RightCtrl" Text="RWin" Grid.Row="6" Grid.Column="53" Grid.ColumnSpan="7" />
+        <TextBox x:Name="VK_Left" Text="Left" Grid.Row="6" Grid.Column="60" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Down" Text="Down" Grid.Row="6" Grid.Column="64" Grid.ColumnSpan="4" />
+        <TextBox x:Name="VK_Right" Text="Right" Grid.Row="6" Grid.Column="68" Grid.ColumnSpan="4" />
+
+
+    </Grid>
+
+</Window>
